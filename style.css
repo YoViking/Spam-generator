@@ -1,0 +1,55 @@
+        @font-face {
+            font-family: 'OPTISouvenir-Bold';
+            src: url('Assets/OPTISouvenir-Bold.otf') format('opentype');
+            font-weight: bold;
+        }
+        
+        .spam-img {
+            width: 100px;
+            height: 100px;
+            margin: 5px;
+            
+            transition: transform 0.2s;
+        }
+        .spam-img:hover {
+            transform: scale(1.1);
+        }
+body {
+    font-family: 'OPTISouvenir-Bold', serif;
+    
+}
+
+h1 {
+    text-align: center;
+    font-family: 'OPTISouvenir-Bold', serif;
+    font-size: 3rem;
+     color: #e4c400;
+     background-color: #000131;
+     height: 4rem;
+}
+
+.counter_module {
+    display: flex;
+    gap: 0.5rem;
+    
+}
+
+
+
+
+p {
+    font-size: 25px;
+    font-family: 'OPTISouvenir-Bold', serif;
+}
+
+button {
+    width: 8rem;
+    height: 3rem;
+    font-size: 25px;
+    font-weight: 600;
+    border-radius: 10px;
+    color: #e4c400;
+    background-color: #000131;
+    font-family: 'OPTISouvenir-Bold', serif;
+    margin-bottom: 2rem;
+}
